@@ -1,0 +1,20 @@
+#include "Main.h"
+
+
+// menu =)
+MAINMENU MENU 
+{
+ POPUP "&Файл"
+ {
+  MENUITEM "&Открыть...", CM_FILE_OPEN
+  MENUITEM "Сохранить &Как...", CM_FILE_SAVEAS
+  MENUITEM SEPARATOR
+  MENUITEM "В&ыйти", CM_FILE_EXIT
+ }
+ POPUP "&Помощь"
+ {
+  MENUITEM "&О программе", CM_ABOUT
+ 
+ }          
+}
+
