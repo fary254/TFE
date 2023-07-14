@@ -2,4 +2,4 @@
 // DO NOT EDIT!
 
 #include "Menu.rc"
-A ICON "FileEditor.ico"
+A ICON "ico.ico"
