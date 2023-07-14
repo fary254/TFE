@@ -152,7 +152,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT Message, WPARAM wParam, LPARAM lParam)
                PostMessage(hwnd, WM_CLOSE, 0, 0);
             break;
             case CM_ABOUT:
-               MessageBox (NULL, "Text File Editor(TFE) для Microsoft windows!\n Лицензия -GNU GPL \n Связь с автором: \n https://youtube.com/@eli_tex2728  \n telegram: t.me/susadmin_MaZaAdmin." , "About...", 0);
+               MessageBox (NULL, "Text File Editor(TFE) для Microsoft windows!\n Лицензия -GNU LGPL 2.1 \n Связь с автором: \n https://youtube.com/@eli_tex2728  \n telegram: t.me/susadmin_MaZaAdmin." , "О программе...", 0);
          }
       break;
       case WM_CLOSE:
